@@ -13,7 +13,10 @@ public class Exercise08 {
     // etc.
     public static void whileLoop(int num) {
         int x = 0;
-        while (x < num) System.out.println(x + " < " + num + ". El proximo ciclo valdra: " + (x + 1));
+        while (x < num) {
+            System.out.println(x + " < " + num + ". El proximo ciclo valdra: " + (x + 1));
+            x++;
+        }
         //System.out.println(x + " es igual a " + num);
 
     }
